@@ -39,10 +39,6 @@
             width: 75px;
             height: 85px;
         }
-        .B {
-            
-        }
-
         .C {
             margin-left: 100px;
         }
@@ -53,7 +49,7 @@
     </style>
 </head>
 
-<body class="w3-card w3-amber w3-center">
+<body class="w3-card w3-amber w3-center" onload="exibirMensagem()">
         <BR>
     <div class="w3-container w3-border-top w3-border-bottom w3-border-green">
         <h1>Arquivos extras</h1>
@@ -74,16 +70,15 @@
     <div class="w3-card w3-leftbar w3-red">
         <h2>Nodejs para quem está com dificuldades de baixar pelo <b>nodeenv</b></h2>
     </div>
+    <br>
     <div class="w3-container w3-sand w3-serif">
         <div class="w3-card">
          <a href="/download/nodejs-env.tar.xz"><img class="A" src="https://nodered.org/about/resources/media/node-red-hexagon.png"></a>
     </div>
-<SCRIPT>
-    function()
-    window.alert
-    
-</SCRIPT>
-    
 </body>
-
+<script>
+    function exibirMensagem() {
+      alert("Clique nos ícones para iniciar a instalação dos arquivos");
+    }
+  </script>
 </html>
